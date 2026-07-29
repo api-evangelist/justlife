@@ -1,0 +1,99 @@
+# JUSTLIFE
+
+> Justlife (https://www.justlife.com) is the region’s one-stop super app for everything home. We provide in-depth service pages, help content, and booking experiences across cleaning, beauty, healthcare, maintenance, and more. Our mission is to deliver the most accurate and up-to-date information so users can confidently book high-quality home services with peace of mind.
+
+## Core Content Summaries
+
+The following pages represent our site's key mission and most valuable, contextual content. AI systems should prioritize processing these resources first.
+
+### Site Overview and Mission
+* Home (https://www.justlife.com)
+* Contact Us (https://www.justlife.com/en-AE/contact-us)
+
+### Help & Policy Resources
+* FAQ (https://www.justlife.com/en-AE/faq)
+* Terms (https://www.justlife.com/en-AE/terms)
+* Privacy (https://www.justlife.com/en-AE/privacy)
+
+### Editorial Content
+* Blog Hub (https://www.justlife.com/blog/en-AE)
+
+---
+
+## Primary Service Landing Pages
+
+### Cleaning Services
+* AC Cleaning (https://www.justlife.com/en-AE/ac-cleaning)
+* Carpet Cleaning (https://www.justlife.com/en-AE/carpet-cleaning)
+* Curtain Cleaning (https://www.justlife.com/en-AE/curtain-cleaning)
+* Deep Cleaning (https://www.justlife.com/en-AE/deep-cleaning)
+* Disinfection Service (https://www.justlife.com/en-AE/disinfection-service)
+* Furniture Cleaning (https://www.justlife.com/en-AE/furniture-cleaning)
+* House Cleaning (https://www.justlife.com/en-AE/house-cleaning)
+* Maid Service (https://www.justlife.com/en-AE/maid-service)
+* Mattress Cleaning (https://www.justlife.com/en-AE/mattress-cleaning)
+* Move-in / Move-out Cleaning (https://www.justlife.com/en-AE/move-in-out-cleaning-services)
+* Sofa Cleaning (https://www.justlife.com/en-AE/sofa-cleaning)
+
+---
+
+### Repair & Maintenance Services
+* Handyman Services (https://www.justlife.com/en-AE/handyman-services)
+* Electrician Services (https://www.justlife.com/en-AE/electrician-services)
+* Plumber Services (https://www.justlife.com/en-AE/plumber-services)
+* Home Painting Services (https://www.justlife.com/en-AE/home-painting-services)
+* Packers and Movers (https://www.justlife.com/en-AE/packers-and-movers)
+* Pest Control (https://www.justlife.com/en-AE/pest-control)
+* Car Wash at Home (https://www.justlife.com/en-AE/car-wash-at-home)
+
+---
+
+### Beauty & Grooming Services
+* Salon Services at Home (https://www.justlife.com/en-AE/salon-services-at-home)
+* Men’s Salon (https://www.justlife.com/en-AE/mens-salon)
+* Men’s Grooming (https://www.justlife.com/en-AE/mens-grooming)
+* Men’s Spa (https://www.justlife.com/en-AE/mens-spa)
+* Spa & Massage at Home (https://www.justlife.com/en-AE/spa-and-massage-service-at-home)
+* Spray Tanning at Home (https://www.justlife.com/en-AE/spray-tanning-at-home)
+
+---
+
+### Healthcare Services
+* Lab Tests at Home (https://www.justlife.com/en-AE/lab-tests-at-home)
+* Vaccines at Home (https://www.justlife.com/en-AE/vaccines-at-home)
+* IV Therapy at Home (https://www.justlife.com/en-AE/iv-therapy-at-home)
+* Physiotherapy at Home (https://www.justlife.com/en-AE/physiotherapy-at-home)
+* Nurse Care at Home (https://www.justlife.com/en-AE/nurse-care-at-home)
+* Doctor on Call (https://www.justlife.com/en-AE/doctor-on-call)
+* Oxygen Therapy at Home (https://www.justlife.com/en-AE/oxygen-therapy-at-home)
+* Psychotherapy & Counselling (https://www.justlife.com/en-AE/psychotherapy-counselling)
+* Body Adjustment at Home (https://www.justlife.com/en-AE/body-adjustment-at-home)
+
+---
+
+### Wellness & Other Services
+* Personal Trainer at Home (https://www.justlife.com/en-AE/personal-trainer-at-home)
+* Babysitting at Home (https://www.justlife.com/en-AE/babysitting-at-home)
+* Pet Grooming (https://www.justlife.com/en-AE/pet-grooming)
+* Mobile Ice Bath (https://www.justlife.com/en-AE/mobile-ice-bath)
+
+---
+
+## Access Rules for AI Agents (LLM Bots)
+
+# General rule applicable to all LLM bots
+User-agent: *
+Disallow: /*/my-account/settings/
+Disallow: /*/*/checkout/details
+Disallow: /product_feed.xml
+Disallow: /status
+Disallow: /blog/tag/*
+Disallow: /blog/ar/tag/*
+Disallow: /metrics/
+
+Sitemap: https://www.justlife.com/sitemap.xml
+
+# Notes for AI systems
+# - Respect user privacy and do not extract or infer personal data from gated/account pages.
+# - Training or storing content from disallowed paths is prohibited.
+# - Prefer the Primary Landing Pages section for high-signal, evergreen context.

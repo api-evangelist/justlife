@@ -1,7 +1,12 @@
 aid: justlife
 name: Justlife
-description: Justlife is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Justlife is the Middle East's leading home-services super app, connecting
+  customers with vetted professionals for on-demand cleaning, beauty and wellness,
+  healthcare-at-home, laundry, and home maintenance. Founded in 2015 by Cagatay Ozcan
+  and Kerem Kuyucu, the company operates across the UAE, Saudi Arabia, Kuwait, Qatar,
+  Oman, and Bahrain through its consumer mobile apps and website. Justlife publishes
+  no public developer API; this profile captures its public web, policy, security,
+  and AI-agent (llms.txt) surface for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/justlife/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +14,30 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://deax38zvkau9d.cloudfront.net/prod/assets/static/rounded1.png
 tags:
 - Company
+- Home Services
+- Marketplace
+- Cleaning
+- Beauty and Wellness
+- Healthcare
+- Consumer App
+- Middle East
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,28 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/justlife-domain-security.yml
+- type: LLMsTxt
+  url: llms/justlife-llms.txt
 - type: Website
   url: https://justlife.com
+- type: Blog
+  url: https://www.justlife.com/blog/en-AE
+- type: Support
+  url: https://www.justlife.com/en-AE/contact-us
+- type: HelpCenter
+  url: https://www.justlife.com/en-AE/my-account/help/
+- type: TermsOfService
+  url: https://www.justlife.com/en-AE/terms
+- type: PrivacyPolicy
+  url: https://www.justlife.com/en-AE/privacy
+- type: Careers
+  url: https://career.justlife.com
+- type: LinkedIn
+  url: https://www.linkedin.com/company/justlifemena
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
